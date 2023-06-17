@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: ur('img/fondo.jpg') no repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 500px;
+    background: hwb(0 95% 3%);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 50%;
+}
+
+.box p {
+    text-align: center;
+}
+
+.box u1 {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.box u1 li {
+    display: inline-block;
+}
+
+.box u1 li a {
+    color: black;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.box u1 li a:hower {
+    color: #b9b9b9;
+    transform: scale(1.3);
+}
